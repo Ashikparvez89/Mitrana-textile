@@ -1,0 +1,16 @@
+.custom-before::before {
+  content: "";
+  position: absolute;
+  top: -46%;
+  left: 0;
+  right: 0;
+  width: 30%;
+  height: 72%;
+  /* background-image: url(https://i.postimg.cc/fRKMS8Mr/why-us-1.png);
+   */
+  background-image: url(https://i.postimg.cc/FKvgm7qw/01-1.png);
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  margin: auto;
+}
