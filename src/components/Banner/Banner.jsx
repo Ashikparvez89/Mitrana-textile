@@ -176,8 +176,8 @@ const Banner = () => {
                     <Slide>
                       {" "}
                       <p className="mb-2 max-w-96 md:max-w-sm lg:max-w-md text-white text-md lg:text-lg font-semibold">
-                        Whether you're looking for friendship or true love, our
-                        platform helps you connect with those who share your
+                        Whether you&apos;re looking for friendship or true love,
+                        our platform helps you connect with those who share your
                         values and interests.
                       </p>
                     </Slide>

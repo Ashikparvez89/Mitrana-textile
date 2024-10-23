@@ -107,7 +107,7 @@ const HowItWorks = () => {
             Get Help from Experts
           </h1>
           <p className="text-red-500 font-semibold mt-3 mb-5">
-            We're here for you
+            We&apos;re here for you
           </p>
           <p className="text-base md:text-lg font-medium">
             Connect with experienced knitters for tips and support throughout
