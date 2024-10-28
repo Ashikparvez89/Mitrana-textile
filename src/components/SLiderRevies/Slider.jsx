@@ -19,7 +19,7 @@ const Slider = () => {
     progressCircle.current.style.setProperty("--progress", 1 - progress);
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
-  console.log(review);
+
   return (
     <div className="container mx-auto py-20">
       <div className="text-center p-10">
