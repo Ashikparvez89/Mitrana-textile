@@ -18,7 +18,7 @@ const HowItWorks = () => {
     <div className="py-10 relative bg-gradient-to-r from-[#fdfcf9] to-[#fefbf2]">
       <div className="max-w-3xl mx-auto text-center mt-16">
         <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-2 border-t-4 border-b-4 border-purple-600 py-4">
-          Digital Knitting Services
+          How Do we work with you....
         </h1>
         <p className="text-lg text-gray-800 mb-8">
           Unleash your creativity with our online knitting solutions.
@@ -66,7 +66,7 @@ const HowItWorks = () => {
           contentArrowStyle={{ borderRight: "7px solid rgb(102, 69, 28)" }}
           date={
             <img
-              src="https://i.postimg.cc/PfyW5jDG/wedding-2.png"
+              src="https://i.postimg.cc/vZRsGfMJ/th.jpg"
               alt="Step 2"
               className="w-24 h-auto mx-auto md:float-right"
             />
@@ -184,7 +184,7 @@ const HowItWorks = () => {
           contentArrowStyle={{ borderRight: "7px solid rgb(102, 69, 28)" }}
           date={
             <img
-              src="https://i.postimg.cc/05dSXfQ8/wedding-couple.png"
+              src="https://i.postimg.cc/Y0ZwGmFm/pngtree-kids-share-and-help-each-other-png-image-8970623.png"
               alt="Step 6"
               className="w-24 h-auto mx-auto md:float-right"
             />

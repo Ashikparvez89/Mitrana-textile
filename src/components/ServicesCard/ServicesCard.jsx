@@ -4,7 +4,7 @@ import { FaCheck, FaYarn } from "react-icons/fa"; // Importing yarn icon for kni
 const ServicesCard = () => {
   return (
     <div className="">
-      <div className="max-w-3xl mx-auto text-center mt-16">
+      <div className="max-w-3xl mx-auto text-center mt-16 py-10">
         <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-2 border-t-4 border-b-4 border-purple-600 py-4">
           Digital Knitting Services
         </h1>

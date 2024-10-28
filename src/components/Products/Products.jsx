@@ -2,10 +2,10 @@
 import React from "react";
 import { services } from "../../lib/services.js";
 const Products = () => {
-  console.log("Products", services);
+
   return (
     <div>
-      <div className="text-center p-10">
+      <div className="text-center py-10">
         <h1 className="font-bold text-4xl mb-4">Browse Some Patterns</h1>
         <h1 className="text-3xl">
           Here are some pattern that we can provide you

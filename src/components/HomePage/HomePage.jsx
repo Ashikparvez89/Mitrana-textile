@@ -8,15 +8,20 @@ import Products from "../Products/Products";
 import HowItWorks from "../HowItworks/HowItWorks";
 import ServicesCard from "../ServicesCard/ServicesCard";
 
+import Slider from "../SLiderRevies/Slider";
+import Partner from "../Ourpartner/Partner";
+
 const HomePage = () => {
   return (
     <div>
       <Banner></Banner>
+      <Counter></Counter>
+      <Products></Products>
       <HowItWorks></HowItWorks>
       <ServicesCard></ServicesCard>
-      <Products></Products>
       <WhyChooseUs></WhyChooseUs>
-      <Counter></Counter>
+      <Partner></Partner>
+      <Slider></Slider>
       <DownloadApp></DownloadApp>
     </div>
   );

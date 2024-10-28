@@ -15,10 +15,10 @@ const WhyChooseUs = () => {
   }, []);
 
   return (
-    <div className="py-10 my-20 md:mt-24 lg:mt-72">
-      <div
+    <div className="py-20 my-20 md:mt-24 lg:mt-72">
+      <di
         data-aos="fade-up"
-        className="bg-gradient-to-r from-slate-500 to-slate-800 pt-[5.5em] pb-[40em] lg:py-[12.5em] flex justify-center items-center flex-col relative custom-before"
+        className="bg-gradient-to-r from-slate-500 to-slate-800 pt-[5.5em] pb-[40em] lg:py-[14.5em] flex justify-center items-center flex-col relative custom-before"
       >
         <h1 className="text-[#ffb400] text-xl md:text-2xl font-bold">
           #1 Digital Knitting Solution Company
@@ -76,7 +76,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </di>
     </div>
   );
 };

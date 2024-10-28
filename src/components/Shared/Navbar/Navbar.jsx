@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -35,35 +36,39 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-white text-gray-800 rounded-box z-[1] mt-3 w-64 p-3 shadow-md"
             >
               <li className="hover:text-purple-500 transition duration-200">
-                <a>Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li className="hover:text-purple-500 transition duration-200">
-                <a>About</a>
+                <Link href="/about">About Us</Link>
               </li>
               <li className="hover:text-purple-500 transition duration-200">
-                <a>Services</a>
+                <Link href="services">Services</Link>
+              </li>
+              <li className="hover:text-purple-500 transition duration-200">
+                <Link href="/products">Products</Link>
               </li>
             </ul>
           </div>
           {/* Updated logo with a clean color */}
-          <a className="text-3xl lg:text-4xl font-bold text-white">
+          <Link href="/" className="text-3xl lg:text-4xl font-bold text-white">
             Mitrana<sup className="text-[18px] text-red-600">TM</sup>{" "}
-          </a>
+          </Link>
         </div>
 
         {/* Navbar Center (for desktop view) */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-4">
             <li className="hover:text-yellow-300 transition duration-200">
-              <a>Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="hover:text-yellow-300 transition duration-200">
-              <details>
-                <summary>About</summary>
-              </details>
+              <Link href="/about">About Us</Link>
             </li>
             <li className="hover:text-yellow-300 transition duration-200">
-              <a>Services</a>
+              <Link href="/services">Services</Link>
+            </li>
+            <li className="hover:text-yellow-300 transition duration-200">
+              <Link href="/products">Products</Link>
             </li>
           </ul>
         </div>

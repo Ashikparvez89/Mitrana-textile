@@ -23,7 +23,13 @@ const Counter = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="py-20 bg-gradient-to-br from-[#ffe4e6] to-[#ffe5f0]">
+      <div
+        style={{
+          background: "linear-gradient(to right, #d7d4c8, #e7b881)",
+          color: "#000000",
+        }}
+        className="py-20"
+      >
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 justify-center items-center">
             <div className="lg:w-2/4 relative">
@@ -44,18 +50,18 @@ const Counter = () => {
               <h1 className="text-2xl sm:text-3xl lg:text-4xl text-[#ff8a8c] font-bold my-4">
                 Knit Master
               </h1>
-              <p className="font-bold text-[#2e2a1f] text-lg lg:text-xl">
+              <p className="font-bold text-[#2e2a1f] text-md lg:text-md">
                 Your one-stop solution for all knitting patterns, tutorials, and
                 tools. Unlock your potential to create beautiful designs for any
                 skill level.
               </p>
-              <p className="text-[#2e2a1f] font-bold my-6 text-lg lg:text-xl">
+              <p className="text-[#2e2a1f] font-bold my-6 text-md lg:text-md">
                 <span className="text-[#ff4e4a]">Start knitting today</span> and
                 bring your creative ideas to life with our easy-to-follow guides
                 and expert advice.
               </p>
               <hr />
-              <p className="text-[#2e2a1f] font-bold my-8 text-lg lg:text-xl">
+              <p className="text-[#2e2a1f] font-bold my-8 text-md">
                 Join a community of passionate knitters and discover thousands
                 of patterns tailored to your unique style.
               </p>
